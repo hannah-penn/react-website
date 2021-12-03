@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 const ProfilePage = () => {
   return (
@@ -24,8 +25,9 @@ const ProfilePage = () => {
           Express, data science and database management with SQL. I'm currently
           in the process of completing{" "}
           <a href="https://itcareerswitch.co.uk/">IT Career Switch's</a> coding
-          course, which includes Microsoft accreditation. You can see some of my
-          projects on my Projects page.{" "}
+          course, which includes Microsoft accreditation. My next steps are
+          introductory courses in PHP, Java, C# and jQuery. You can see some of
+          my projects on my <Link to="/projects">Projects</Link> page.{" "}
         </li>
         <li className="profile-section">
           In my spare time, I make linocut, collage and textile art, do a lot of
@@ -34,7 +36,9 @@ const ProfilePage = () => {
           my Instagram.
         </li>
       </p>
-      <button id="cv-button">Download my CV!</button>
+      <button id="cv-button" href="cv-placeholder" download>
+        Download my CV!
+      </button>
     </div>
   );
 };
