@@ -1,6 +1,6 @@
 import "./App.css";
-import React, { Component } from "react";
-import { Router, Link } from "@reach/router";
+import React from "react";
+import { Router } from "@reach/router";
 import HomePage from "./HomePage";
 import ContactPage from "./ContactPage";
 import ProjectsPage from "./ProjectsPage";
