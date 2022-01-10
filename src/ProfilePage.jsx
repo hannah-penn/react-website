@@ -7,11 +7,9 @@ const ProfilePage = () => {
       <h1 className="page-title">Profile</h1>
       <p>
         <li className="page-section">
-          Hi! My name is Hannah and I'm a programmer living in London.
-        </li>
-        <li className="page-section">
-          I first started learning to code in 2021; before that, I was working
-          at a university in the mental health &amp; wellbeing department from
+          Hi! My name is Hannah and I'm a programmer living in London. I first
+          started learning to code in 2021; before that, I was working at a
+          university in the mental health &amp; wellbeing department from
           2016-2021.
         </li>
         <li className="page-section">
@@ -25,9 +23,15 @@ const ProfilePage = () => {
           back-end engineering, including HTML, CSS, Python, React + Redux,
           Express, data science and database management with SQL. I'm currently
           in the process of completing{" "}
-          <a href="https://itcareerswitch.co.uk/">IT Career Switch's</a> coding
-          course, which includes Microsoft accreditation. Most recently, I
-          completed introductory courses in PHP, Java, C# and jQuery. You can
+          <a
+            href="https://itcareerswitch.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            IT Career Switch's
+          </a>{" "}
+          coding course, which includes Microsoft accreditation. Most recently,
+          I completed introductory courses in PHP, Java, C# and jQuery. You can
           see some of my projects on my <Link to="/projects">Projects</Link>{" "}
           page.{" "}
         </li>

@@ -5,6 +5,7 @@ import HomePage from "./HomePage";
 import ContactPage from "./ContactPage";
 import ProjectsPage from "./ProjectsPage";
 import ProfilePage from "./ProfilePage";
+import PageNotFound from "./PageNotFound";
 import Navbar from "./Navbar";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <ContactPage path="/contact" />
         <ProjectsPage path="/projects" />
         <ProfilePage path="/profile" />
+        <PageNotFound default />
       </Router>
     </div>
   );
