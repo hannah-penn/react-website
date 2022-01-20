@@ -7,10 +7,7 @@ const ProfilePage = () => {
       <h1 className="page-title">Profile</h1>
       <p>
         <li className="page-section">
-          Hi! My name is Hannah and I'm a programmer living in London. I first
-          started learning to code in 2021; before that, I was working at a
-          university in the mental health &amp; wellbeing department from
-          2016-2021.
+          Hi! My name is Hannah and I'm a programmer living in London.
         </li>
         <li className="page-section">
           I chose to learn coding because I wanted to try something different

@@ -6,7 +6,7 @@ const Navbar = memo(() => {
     <div>
       <nav id="navbar">
         <h1 id="navbar-title">HannahPenn.codes</h1>
-        <h2 id="mobile-title">hp</h2>
+        <h2 id="mobile-title">hp.codes</h2>
         <Link className="nav-link" to="/">
           Home
         </Link>
