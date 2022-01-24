@@ -7,10 +7,23 @@ const ContactPage = () => {
       <h1 className="page-title">Contact me</h1>
       <p>
         <li className="page-section">
-          Drop me a line on hannahrosepenn@gmail.com or&nbsp;
+          Drop me a line on{" "}
+          <span id="email-address">hannahrosepenn@gmail.com</span> or&nbsp;
           <a href={cv} download="cv-hannah-penn.pdf">
-            click to download my CV.
+            click to download my CV
           </a>
+          .
+        </li>
+        <li className="page-section">
+          Visit my profile on{" "}
+          <a
+            href="www.linkedin.com/in/hannahpenncodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+          .
         </li>
       </p>
     </div>

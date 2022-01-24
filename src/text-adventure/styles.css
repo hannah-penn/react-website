@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amita:wght@400;700&family=Just+Me+Again+Down+Here&family=Lancelot&display=swap");
+
+body {
+  align-items: center;
+  background-image: url("file:///C:/Users/hanna/Desktop/Projects/react-website/src/text-adventure/mushroomwallpaperbrown.jpg");
+  background-repeat: repeat;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 1536px;
+}
+
+.container {
+  align-items: center;
+  box-sizing: border-box;
+  height: 600px;
+  justify-items: center;
+  max-width: 70%;
+  width: 1000px;
+}
+
+#title {
+  background-color: rgb(191, 128, 255);
+  border-bottom-color: rgb(218, 165, 32);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 9.6px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(218, 165, 32);
+  border-left-style: solid;
+  border-left-width: 9.6px;
+  border-right-color: rgb(218, 165, 32);
+  border-right-style: solid;
+  border-right-width: 9.6px;
+  border-top-color: rgb(218, 165, 32);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-style: solid;
+  border-top-width: 9.6px;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  font-size: 80px;
+  margin-top: 75px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.button-grid {
+  align-items: center;
+  background-image: url("file:///C:/Users/hanna/Desktop/Projects/react-website/src/text-adventure/big-parchment.png");
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-style: dotted;
+  border-bottom-width: 0.8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: dotted;
+  border-left-width: 0.8px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: dotted;
+  border-right-width: 0.8px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-style: dotted;
+  border-top-width: 0.8px;
+  box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  margin-top: 200px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 1000px;
+}
+
+#subtitle {
+  background-color: rgb(191, 128, 255);
+  border-bottom-color: rgb(218, 165, 32);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 9.6px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(218, 165, 32);
+  border-left-style: solid;
+  border-left-width: 9.6px;
+  border-right-color: rgb(218, 165, 32);
+  border-right-style: solid;
+  border-right-width: 9.6px;
+  border-top-color: rgb(218, 165, 32);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-style: solid;
+  border-top-width: 9.6px;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  text-align: center;
+  width: 500px;
+}
+
+.start-button-container {
+  align-items: center;
+  background-image: url("file:///C:/Users/hanna/Desktop/Projects/react-website/src/text-adventure/big-parchment.png");
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-style: dotted;
+  border-bottom-width: 0.8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: dotted;
+  border-left-width: 0.8px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: dotted;
+  border-right-width: 0.8px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-style: dotted;
+  border-top-width: 0.8px;
+  box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  margin-left: 250px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 500px;
+}
+
+.btn {
+  background-color: rgb(224, 196, 134);
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 0.8px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 0.8px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-style: solid;
+  border-top-width: 0.8px;
+  box-sizing: border-box;
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  opacity: 0.75;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+#text {
+  box-sizing: border-box;
+  font-family: "Lancelot", cursive;
+  font-size: 30px;
+  line-height: 35px;
+}
