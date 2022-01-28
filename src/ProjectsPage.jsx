@@ -8,7 +8,11 @@ const ProjectsPage = () => {
         <p>
           <li className="page-section">
             Play my text adventure,{" "}
-            <a href="src\text-adventure\title.html">
+            <a
+              href="https://www.hannahpenn.codes/text-adventure/title.html"
+              target="_blank"
+              rel="noreferrer"
+            >
               Miracle's Mycology Mishap
             </a>
             , made in JavaScript, HTML and CSS.
