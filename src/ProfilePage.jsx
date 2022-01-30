@@ -17,7 +17,7 @@ const ProfilePage = () => {
         </li>
         <li className="page-section">
           Since mid-2021, I've been learning various aspects of front- and
-          back-end engineering, including HTML, CSS,JavaScript, Python, React +
+          back-end engineering, including HTML, CSS, JavaScript, Python, React +
           Redux, Express, data science and database management with SQL. I'm
           currently in the process of completing{" "}
           <a

@@ -15,13 +15,21 @@ const ContactPage = () => {
           .
         </li>
         <li className="page-section">
-          Visit my profile on{" "}
+          Visit my profiles on{" "}
           <a
             href="www.linkedin.com/in/hannahpenncodes"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
+          </a>
+          and{" "}
+          <a
+            href="https://github.com/hannah-penn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
           </a>
           .
         </li>
