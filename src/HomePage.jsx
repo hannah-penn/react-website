@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 const HomePage = () => {
   return (
@@ -6,10 +7,20 @@ const HomePage = () => {
       <h1 className="page-title">Welcome</h1>
       <p>
         <li className="page-section">
-          I finished my Codecademy full-stack course on 3rd January 2022 and
-          passed Microsoft 98-383 on 21st January 2022. My next step is to
-          prepare for interviews with companies who need a junior
-          engineer/developer!
+          Hi! My name is Hannah and I'm a programmer living in London.
+        </li>
+        <li className="page-section">
+          I chose to learn coding because I wanted to try something different
+          that would make use of the skills I developed in my previous
+          employment, and following some self-directed learning I decided that
+          coding would be a great fit for me.{" "}
+        </li>
+        <li className="page-section">
+          I'm looking for my first programming role! Have a look at my{" "}
+          <Link to="/projects">Projects</Link>
+          &nbsp;page to see what I've been working on, or download my CV via
+          the&nbsp;
+          <Link to="/contact">Contact</Link> page.
         </li>
         <li className="page-section">
           This website is made in React with Reach router.
